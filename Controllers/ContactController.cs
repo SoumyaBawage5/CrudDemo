@@ -23,7 +23,7 @@ using static Amazon.S3.Util.S3EventNotification;
 namespace CrudDemo.Controllers
 {
     [ApiController]
-    [Route("api /[Controller]")]
+    [Route("api/[Controller]")]
     public class ContactController : Controller
     {
         private readonly CrudDemoDbContext dbContext;
